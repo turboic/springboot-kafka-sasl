@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  tomcat:
+    max-http-form-post-size: 200MB
+spring:
+  profiles:
+    active: consume,producer
+kafka:
+  bootstrap-servers: 10.10.10.99:9092
+  group-id: springboot-kafka-sasl
+  auto-offset-reset: latest
+task:
+  enable: false

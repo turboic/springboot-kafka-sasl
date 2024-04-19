@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot-kafka-sasl
+server:
+  servlet:
+    context-path: /
+  main:
+    allow-bean-definition-overriding: true
